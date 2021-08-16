@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1200px){
+
+    .profile-card{
+        transition: all 0.2s linear;
+    }
+
+    .card-Box, .profile-person, .profile-content, .user-pic, .socila-icon, .aboutMe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-Box{
+        flex-flow: nowrap row;
+        width: 300px;
+        height: 400px;
+        background-image: url(../images/17545-1.jpg);
+        background-size: cover;
+        margin: 50px auto;
+        border-radius: 20px;
+        box-shadow: 5px 5px 3px slategray;
+        transition: all 0.4s linear;
+        overflow: hidden;
+        transition: all 0.2s linear;
+        /* animation: animate01 0.7s ease-in-out; */
+    }
+
+    .profile-person, .profile-content{
+        flex-flow: wrap column;
+        width: auto;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .profile-person{
+        cursor: pointer;
+    }
+
+    .profile-person > h2{
+        padding: 5px;
+    }
+
+    .profile-person > h3{
+        width: 10vw;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #0800ff;
+        text-align: center;
+        padding-bottom: 5px; 
+    }
+
+    .profile-person > p, .aboutMe{
+        color: #5a5b5e;
+        font-family: 'Aladin', cursive;
+    }
+
+    .text{
+        background: linear-gradient(to right, #0800ff 0%, #151317 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+        font-family: 'Lemon', cursive;
+        font-size: 20px;
+    }
+
+    .user-pic{
+        width: 150px;
+        height: 150px;
+        margin: 20px 0;
+        padding: 10px;
+        position: relative;
+        background-color: #0000ff40;
+        border-radius: 100%;
+        border: 3px solid #cbb84f;
+    }
+
+
+    .user-pic > .fi-person{
+        font-size: 100px;
+        position: absolute;
+        color: #cbb84f;
+    }
+
+    .profile-content{
+        width: 50%;
+        display: none;
+    } 
+
+    .aboutMe{
+        flex-flow: wrap column;
+        margin-bottom: 35px;
+        text-align: justify;
+        /* text-align-last: center; */
+        word-spacing: 2px;
+        padding: 5px;
+    }
+
+    .h3{
+        width: 16vw;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #0800ff;
+        text-align: center;
+        padding-bottom: 5px;
+        /* font-size: 18px; */
+    }
+
+    .socila-icon{
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    a > .fi{
+        font-size: 22px;
+        width: 26px;
+        min-height: 26px;
+        text-align: center;
+    }
+
+    .fi-whatsapp{
+        color: #42E35F;
+    }
+
+    .fi-telegram{
+        color: #239ED8;
+    }
+
+    .fi-instagram{
+        color: #CF2F81;
+    }
+
+    .fi-twitter{
+        color: #1DA1F3;
+    }
+
+    .fi-github{
+        color: #04204F;
+    }
+    
+
+}
